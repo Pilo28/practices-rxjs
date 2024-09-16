@@ -36,8 +36,8 @@ const subs1 = intervalo$.subscribe( observer );
 const subs2 = intervalo$.subscribe( observer );
 const subs3 = intervalo$.subscribe( observer );
 
-subs1.add( subs2 )
-     .add( subs3 );
+subs1.add(subs2);
+subs1.add(subs3);
 
 
 setTimeout(() => {
